@@ -1,0 +1,262 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 3,
+    "identityHash": "d90322c02ec1ed0059c7828179163e51",
+    "entities": [
+      {
+        "tableName": "GEN_productMaster",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`PKId` TEXT NOT NULL, `ProductId` TEXT NOT NULL, `ProductTypeId` TEXT NOT NULL, `ProductMasterName` TEXT NOT NULL, `BrandName` TEXT NOT NULL, `GroupName` TEXT NOT NULL, `IsRefundable` TEXT NOT NULL, `CompanyId` TEXT NOT NULL, `ProductSKUId` TEXT NOT NULL, `ProductName` TEXT NOT NULL, `SellingRate` TEXT NOT NULL, `BaseSellingPrice` TEXT NOT NULL, `CurrencyId` TEXT NOT NULL, `SellingCurrencySymbol` TEXT NOT NULL, `SellingCurrencyName` TEXT NOT NULL, `ProductCode` TEXT NOT NULL, `ProductCategoryId` TEXT NOT NULL, `ProductBrandId` TEXT NOT NULL, `ProductImage` TEXT NOT NULL, `UOMId` TEXT NOT NULL, `ProductBarCode` TEXT NOT NULL, `ProductSKUCode` TEXT NOT NULL, `UOMName` TEXT NOT NULL, `UOMCode` TEXT NOT NULL, `ProductGroupId` TEXT NOT NULL, `ConversionSKU` TEXT NOT NULL, `ConversionValue` TEXT NOT NULL, `DimensionUOMId` TEXT NOT NULL, `DimensionUOMName` TEXT NOT NULL, `WeightKG` TEXT NOT NULL, `Height` TEXT NOT NULL, `Length` TEXT NOT NULL, `Width` TEXT NOT NULL, `ProductSKUImage` TEXT NOT NULL, `IsLoaded` TEXT NOT NULL, `TrackingBy` TEXT NOT NULL, `ProductMasterNameLang2` TEXT NOT NULL, `ProductNameLang2` TEXT NOT NULL, `ArabicRemark` TEXT NOT NULL, PRIMARY KEY(`PKId`))",
+        "fields": [
+          {
+            "fieldPath": "PKId",
+            "columnName": "PKId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductId",
+            "columnName": "ProductId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductTypeId",
+            "columnName": "ProductTypeId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductMasterName",
+            "columnName": "ProductMasterName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "BrandName",
+            "columnName": "BrandName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "GroupName",
+            "columnName": "GroupName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "IsRefundable",
+            "columnName": "IsRefundable",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "CompanyId",
+            "columnName": "CompanyId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductSKUId",
+            "columnName": "ProductSKUId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductName",
+            "columnName": "ProductName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SellingRate",
+            "columnName": "SellingRate",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "BaseSellingPrice",
+            "columnName": "BaseSellingPrice",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "CurrencyId",
+            "columnName": "CurrencyId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SellingCurrencySymbol",
+            "columnName": "SellingCurrencySymbol",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SellingCurrencyName",
+            "columnName": "SellingCurrencyName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductCode",
+            "columnName": "ProductCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductCategoryId",
+            "columnName": "ProductCategoryId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductBrandId",
+            "columnName": "ProductBrandId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductImage",
+            "columnName": "ProductImage",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "UOMId",
+            "columnName": "UOMId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductBarCode",
+            "columnName": "ProductBarCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductSKUCode",
+            "columnName": "ProductSKUCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "UOMName",
+            "columnName": "UOMName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "UOMCode",
+            "columnName": "UOMCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductGroupId",
+            "columnName": "ProductGroupId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ConversionSKU",
+            "columnName": "ConversionSKU",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ConversionValue",
+            "columnName": "ConversionValue",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DimensionUOMId",
+            "columnName": "DimensionUOMId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "DimensionUOMName",
+            "columnName": "DimensionUOMName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "WeightKG",
+            "columnName": "WeightKG",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Height",
+            "columnName": "Height",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Length",
+            "columnName": "Length",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Width",
+            "columnName": "Width",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductSKUImage",
+            "columnName": "ProductSKUImage",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "IsLoaded",
+            "columnName": "IsLoaded",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "TrackingBy",
+            "columnName": "TrackingBy",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductMasterNameLang2",
+            "columnName": "ProductMasterNameLang2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ProductNameLang2",
+            "columnName": "ProductNameLang2",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ArabicRemark",
+            "columnName": "ArabicRemark",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "PKId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd90322c02ec1ed0059c7828179163e51')"
+    ]
+  }
+}
